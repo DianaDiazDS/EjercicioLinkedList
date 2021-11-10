@@ -25,8 +25,48 @@ void mngFruta() {
 
 int main() {
 
+    LinkedList <Fruta> *todaFruta = new LinkedList<Fruta>();
+    todaFruta->addNodeLast(Fruta("piña", "amatillo", "agrio"));
+    todaFruta->addNodeLast(Fruta("fresa", "roja", "dulce"));
 
 
+    cout<<"1-Crear Mouse\n2-Buscar Mouse\n3-Mostrar Mouse\n5-Salir";
+
+    cout<<"\nescriba opcion|";
+    int opcion;
+    cin >> opcion;
+    switch (opcion) {
+        case 1: {
+            string name;
+            string color;
+            string sabor;
+            cout<<""<<endl;
+            cout<<"ingrese el nombre"<<endl;
+            cin>> name;
+            cout<<"ingrese el color"<<endl;
+            cin>> color;
+            cout<<"ingrese el sabor"<<endl;
+            cin>> sabor;
+
+            Fruta *fruta = new Fruta(name,color,sabor);
+
+            linked->addNodeFirst(*fruta);
+
+        }
+        case 2: {
+
+        }
+        case 3: {
+
+        }
+        case 5: {
+
+        }
+    }
+
+
+
+/////-----------------
     Fruta mango("mango","amarillo","dulce");
     Fruta pera("pera","verde","dulce");
 
@@ -37,7 +77,7 @@ int main() {
     cout<<mango<<endl;
     cout<<pera<<endl;
 
-    mngFruta();
+    mngFruta();//agregar uno
 
     return EXIT_SUCCESS;
 
