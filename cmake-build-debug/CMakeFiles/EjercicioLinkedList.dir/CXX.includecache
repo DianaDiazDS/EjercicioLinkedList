@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/EjercicioLinkedList/Fruta.cpp
+Fruta.h
+D:/EjercicioLinkedList/Fruta.h
+
+D:/EjercicioLinkedList/Fruta.h
+
+D:/EjercicioLinkedList/LinkedList.cpp
+LinkedList.h
+D:/EjercicioLinkedList/LinkedList.h
+
+D:/EjercicioLinkedList/LinkedList.h
+vector
+-
+Node.h
+D:/EjercicioLinkedList/Node.h
+
+D:/EjercicioLinkedList/Node.cpp
+Node.h
+D:/EjercicioLinkedList/Node.h
+
+D:/EjercicioLinkedList/Node.h
+cstdlib
+-
+
+D:/EjercicioLinkedList/main.cpp
+iostream
+-
+LinkedList.cpp
+D:/EjercicioLinkedList/LinkedList.cpp
+
