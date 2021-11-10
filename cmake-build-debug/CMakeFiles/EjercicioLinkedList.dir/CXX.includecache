@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/EjercicioLinkedList/LinkedList.cpp
-LinkedList.h
-D:/EjercicioLinkedList/LinkedList.h
+D:/EjercicioLinkedList/Fruta.cpp
+Fruta.h
+D:/EjercicioLinkedList/Fruta.h
 
-D:/EjercicioLinkedList/LinkedList.h
-vector
+D:/EjercicioLinkedList/Fruta.h
+string
 -
-Node.h
-D:/EjercicioLinkedList/Node.h
-
-D:/EjercicioLinkedList/Node.h
-cstdlib
+ostream
 -
-
-D:/EjercicioLinkedList/main.cpp
-iostream
--
-LinkedList.cpp
-D:/EjercicioLinkedList/LinkedList.cpp
 
