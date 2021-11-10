@@ -8,6 +8,10 @@ CMakeFiles/EjercicioLinkedList.dir/LinkedList.cpp.obj: \
  ../LinkedList.cpp \
  ../LinkedList.h \
  ../Node.h
+CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.obj: \
+ ../Fruta.h \
+ ../ManejarFruta.cpp \
+ ../ManejarFruta.h
 CMakeFiles/EjercicioLinkedList.dir/Node.cpp.obj: \
  ../Node.cpp \
  ../Node.h
@@ -15,5 +19,6 @@ CMakeFiles/EjercicioLinkedList.dir/main.cpp.obj: \
  ../Fruta.h \
  ../LinkedList.cpp \
  ../LinkedList.h \
+ ../ManejarFruta.h \
  ../Node.h \
  ../main.cpp

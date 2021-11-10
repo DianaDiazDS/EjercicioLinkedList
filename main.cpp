@@ -4,16 +4,24 @@
 #include <iostream>
 #include "LinkedList.cpp"
 #include "Fruta.h"
+#include "ManejarFruta.h"
 
 using namespace std;
 
 
 
-void mngFruta(){
-    ManejarFruta *mng new ManejarFruta;
-    mng->addFruta();
-}
+void mngFruta() {
+    ManejarFruta *mng= new ManejarFruta();
+    mng->addFruta("piña", "amarilla", "agria");
+    cout << "frutas  " << mng->getFruta().size() <<endl;
 
+    for(Fruta* fruta : mng->getFruta()){
+        cout<<fruta<<endl;
+    }
+
+
+    delete (mng);
+}
 
 int main() {
 
@@ -29,6 +37,7 @@ int main() {
     cout<<mango<<endl;
     cout<<pera<<endl;
 
+    mngFruta();
 
     return EXIT_SUCCESS;
 
