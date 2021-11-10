@@ -10,7 +10,7 @@ int main() {
 
     LinkedList<char>* linkFirst = new LinkedList<char>();
     LinkedList<char>* linkLast = new LinkedList<char>();
- // nuevo mensaje
+ // nuevo mensaje final que
     //D-C-B-A
 
     linkFirst->addNodeFirst('A');
