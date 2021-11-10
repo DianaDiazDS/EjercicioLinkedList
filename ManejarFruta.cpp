@@ -13,5 +13,25 @@ Fruta *ManejarFruta::findFruta(std::string name) {
         }
 
     }
+    return NULL;
+}
 
+bool ManejarFruta::addFruta(std::string name, std::string color, std::string sabor) {
+
+    if(findFruta(name)== NULL){
+        frutas.push_back( new Fruta(name,color, sabor));
+        return true;
+    }
+    return false;
+}
+
+std::vector<Fruta*> ManejarFruta::getFruta() {
+    return frutas;
+}
+
+
+ManejarFruta:: ~ManejarFruta(){
+    for(Fruta* fruta : frutas){
+        delete(fruta);
+    }
 }

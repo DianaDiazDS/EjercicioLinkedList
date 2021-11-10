@@ -7,7 +7,17 @@
 
 using namespace std;
 
+
+
+void mngFruta(){
+    ManejarFruta *mng new ManejarFruta;
+    mng->addFruta();
+}
+
+
 int main() {
+
+
 
     Fruta mango("mango","amarillo","dulce");
     Fruta pera("pera","verde","dulce");
