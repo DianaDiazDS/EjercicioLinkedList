@@ -3,9 +3,27 @@
 
 #include <iostream>
 #include "LinkedList.cpp"
+#include "Fruta.h"
 
 using namespace std;
 
+int main() {
+
+    Fruta mango("mango","amarillo","dulce");
+    Fruta pera("pera","verde","dulce");
+
+    cout<<mango.getName()<<endl;
+    cout<<mango.getColor()<<endl;
+    cout<<mango.getSabor()<<endl;
+
+    cout<<mango<<endl;
+    cout<<pera<<endl;
+
+
+    return EXIT_SUCCESS;
+
+}
+/*
 int main() {
 
     LinkedList<char>* linkFirst = new LinkedList<char>();
@@ -43,3 +61,4 @@ int main() {
 
     return EXIT_SUCCESS;
 }
+ */

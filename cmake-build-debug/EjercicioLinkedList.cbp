@@ -94,6 +94,12 @@
 		<Unit filename="D:/EjercicioLinkedList/LinkedList.h">
 			<Option target="EjercicioLinkedList"/>
 		</Unit>
+		<Unit filename="D:/EjercicioLinkedList/ManejarFruta.cpp">
+			<Option target="EjercicioLinkedList"/>
+		</Unit>
+		<Unit filename="D:/EjercicioLinkedList/ManejarFruta.h">
+			<Option target="EjercicioLinkedList"/>
+		</Unit>
 		<Unit filename="D:/EjercicioLinkedList/Node.cpp">
 			<Option target="EjercicioLinkedList"/>
 		</Unit>

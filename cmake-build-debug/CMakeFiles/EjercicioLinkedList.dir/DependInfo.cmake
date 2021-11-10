@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/EjercicioLinkedList/Fruta.cpp" "D:/EjercicioLinkedList/cmake-build-debug/CMakeFiles/EjercicioLinkedList.dir/Fruta.cpp.obj"
   "D:/EjercicioLinkedList/LinkedList.cpp" "D:/EjercicioLinkedList/cmake-build-debug/CMakeFiles/EjercicioLinkedList.dir/LinkedList.cpp.obj"
+  "D:/EjercicioLinkedList/ManejarFruta.cpp" "D:/EjercicioLinkedList/cmake-build-debug/CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.obj"
   "D:/EjercicioLinkedList/Node.cpp" "D:/EjercicioLinkedList/cmake-build-debug/CMakeFiles/EjercicioLinkedList.dir/Node.cpp.obj"
   "D:/EjercicioLinkedList/main.cpp" "D:/EjercicioLinkedList/cmake-build-debug/CMakeFiles/EjercicioLinkedList.dir/main.cpp.obj"
   )

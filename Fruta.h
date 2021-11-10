@@ -31,13 +31,13 @@ public:
 
     friend std::ostream &operator<<(std::ostream &os, const Fruta &fruta);
 
+    virtual ~Fruta();
+
 private:
 
     std::string name;
     std::string color;
     std::string sabor;
-
-
 
 
 

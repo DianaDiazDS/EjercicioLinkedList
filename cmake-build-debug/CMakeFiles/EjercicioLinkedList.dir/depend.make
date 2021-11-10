@@ -12,6 +12,7 @@ CMakeFiles/EjercicioLinkedList.dir/Node.cpp.obj: \
  ../Node.cpp \
  ../Node.h
 CMakeFiles/EjercicioLinkedList.dir/main.cpp.obj: \
+ ../Fruta.h \
  ../LinkedList.cpp \
  ../LinkedList.h \
  ../Node.h \

@@ -176,6 +176,30 @@ LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/LinkedList.cpp.s
 .PHONY : LinkedList.cpp.s
 
+ManejarFruta.obj: ManejarFruta.cpp.obj
+.PHONY : ManejarFruta.obj
+
+# target to build an object file
+ManejarFruta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.obj
+.PHONY : ManejarFruta.cpp.obj
+
+ManejarFruta.i: ManejarFruta.cpp.i
+.PHONY : ManejarFruta.i
+
+# target to preprocess a source file
+ManejarFruta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.i
+.PHONY : ManejarFruta.cpp.i
+
+ManejarFruta.s: ManejarFruta.cpp.s
+.PHONY : ManejarFruta.s
+
+# target to generate assembly for a file
+ManejarFruta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.s
+.PHONY : ManejarFruta.cpp.s
+
 Node.obj: Node.cpp.obj
 .PHONY : Node.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... LinkedList.obj
 	@echo ... LinkedList.i
 	@echo ... LinkedList.s
+	@echo ... ManejarFruta.obj
+	@echo ... ManejarFruta.i
+	@echo ... ManejarFruta.s
 	@echo ... Node.obj
 	@echo ... Node.i
 	@echo ... Node.s

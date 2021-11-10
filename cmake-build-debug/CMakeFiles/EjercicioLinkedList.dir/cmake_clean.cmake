@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EjercicioLinkedList.dir/Fruta.cpp.obj"
   "CMakeFiles/EjercicioLinkedList.dir/LinkedList.cpp.obj"
+  "CMakeFiles/EjercicioLinkedList.dir/ManejarFruta.cpp.obj"
   "CMakeFiles/EjercicioLinkedList.dir/Node.cpp.obj"
   "CMakeFiles/EjercicioLinkedList.dir/main.cpp.obj"
   "EjercicioLinkedList.exe"

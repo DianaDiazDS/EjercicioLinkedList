@@ -80,12 +80,12 @@ clean: CMakeFiles/EjercicioLinkedList.dir/clean
 CMakeFiles/EjercicioLinkedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioLinkedList.dir\build.make CMakeFiles/EjercicioLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\EjercicioLinkedList\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target EjercicioLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\EjercicioLinkedList\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target EjercicioLinkedList"
 .PHONY : CMakeFiles/EjercicioLinkedList.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EjercicioLinkedList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\EjercicioLinkedList\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\EjercicioLinkedList\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/EjercicioLinkedList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\EjercicioLinkedList\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/EjercicioLinkedList.dir/rule

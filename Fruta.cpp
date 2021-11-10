@@ -3,7 +3,7 @@
 //
 
 #include "Fruta.h"
-
+#include <iostream>
 Fruta::Fruta() {}
 
 Fruta::Fruta(const std::string &name, const std::string &color, const std::string &sabor) : name(name), color(color),
@@ -38,4 +38,8 @@ void Fruta::setSabor(const std::string &sabor) {
 std::ostream &operator<<(std::ostream &os, const Fruta &fruta) {
     os << "name: " << fruta.name << " color: " << fruta.color << " sabor: " << fruta.sabor;
     return os;
+}
+
+Fruta::~Fruta() {
+ std::cout<<"good"<<std::endl;
 }

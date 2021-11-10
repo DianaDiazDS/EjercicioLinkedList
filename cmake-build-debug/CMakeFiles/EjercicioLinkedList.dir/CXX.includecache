@@ -9,10 +9,34 @@
 D:/EjercicioLinkedList/Fruta.cpp
 Fruta.h
 D:/EjercicioLinkedList/Fruta.h
+iostream
+-
 
 D:/EjercicioLinkedList/Fruta.h
 string
 -
 ostream
 -
+
+D:/EjercicioLinkedList/LinkedList.cpp
+LinkedList.h
+D:/EjercicioLinkedList/LinkedList.h
+
+D:/EjercicioLinkedList/LinkedList.h
+vector
+-
+Node.h
+D:/EjercicioLinkedList/Node.h
+
+D:/EjercicioLinkedList/Node.h
+cstdlib
+-
+
+D:/EjercicioLinkedList/main.cpp
+iostream
+-
+LinkedList.cpp
+D:/EjercicioLinkedList/LinkedList.cpp
+Fruta.h
+D:/EjercicioLinkedList/Fruta.h
 
