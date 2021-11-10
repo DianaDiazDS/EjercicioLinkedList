@@ -3,3 +3,15 @@
 //
 
 #include "ManejarFruta.h"
+
+ManejarFruta::ManejarFruta() {}
+
+Fruta *ManejarFruta::findFruta(std::string name) {
+    for(Fruta* fruta : frutas){
+        if(fruta->getName().compare(name)==0){
+            return fruta;
+        }
+
+    }
+
+}

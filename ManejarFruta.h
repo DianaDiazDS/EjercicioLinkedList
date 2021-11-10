@@ -9,10 +9,19 @@
 
 class ManejarFruta {
 public:
+    ManejarFruta();
+
+
+
+    Fruta* findFruta(std::string);
+    bool addFruta(std::string,std::string,std::string);
+    std::vector<Fruta*> getFruta();
+
+    virtual ~ManejarFruta();
 
 
 private:
-    std::vector<Fruta*> Fruta;
+    std::vector<Fruta*> frutas;
 };
 
 
